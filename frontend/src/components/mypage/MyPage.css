@@ -1,0 +1,32 @@
+.mypage-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+
+.mypage-container > button {
+    border: none;
+    background-color: transparent;
+}
+
+.diary-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+}
+
+.diary-container > input {
+    height: 50vh;
+    border: none;
+    border-radius: 4px;
+}
+
+.diary-container > button {
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: beige;
+}

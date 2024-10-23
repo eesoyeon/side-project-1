@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    /* background-color: antiquewhite; */
+}
+
+.home-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.home-title > h1 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.home-signup {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.home-signup > p {
+    margin-right: 4px;
+}
